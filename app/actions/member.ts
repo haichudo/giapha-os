@@ -54,9 +54,3 @@ export async function deleteMemberProfile(memberId: string) {
   revalidatePath("/dashboard/members");
   redirect("/dashboard");
 }
-
-  revalidatePath("/dashboard");
-  revalidatePath("/dashboard/members");
-  redirect("/dashboard");
-}
-
