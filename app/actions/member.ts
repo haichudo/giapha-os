@@ -5,7 +5,7 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 
 export async function deleteMemberProfile(memberId: string) {
-  const supabase = createClient();
+  const supabase = await createClient();
 
   const {
     data: { user },
