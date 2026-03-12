@@ -1,8 +1,8 @@
 const config = {
   siteName:
     process.env.SITE_NAME ||
-    `Gia phả họ Chu -
-Thôn Khúc Lộng - Xã Nghĩa Trụ (Văn Giang) - Hưng Yên`,
+    `Gia phả họ Chu
+- Thôn Khúc Lộng - Xã Nghĩa Trụ (Văn Giang) - Hưng Yên`,
   exampleEmail: process.env.EXAMPLE_EMAIL || "",
   examplePassword: process.env.EXAMPLE_PASSWORD || "",
   demoDomain:
