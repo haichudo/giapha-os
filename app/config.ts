@@ -1,6 +1,5 @@
 const config = {
-  siteName: process.env.SITE_NAME || "Gia phả họ Chu -" 
-  \n"Thôn Khúc Lộng - Xã Nghĩa Trụ (Văn Giang) - Hưng yên",
+  siteName: process.env.SITE_NAME || "Gia phả họ Chu - \nThôn Khúc Lộng - Xã Nghĩa Trụ (Văn Giang) - Hưng yên",
   exampleEmail: process.env.EXAMPLE_EMAIL || "",
   examplePassword: process.env.EXAMPLE_PASSWORD || "",
   demoDomain: process.env.DEMO_DOMAIN || "https://giaphahochu.vercel.app/dashboard",
