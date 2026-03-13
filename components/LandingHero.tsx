@@ -54,7 +54,7 @@
       </span>
 
       <span className="text-lg sm:text-xl md:text-2xl text-stone-500 font-medium max-w-3xl">
-        (Xưa là Xóm Đọ – Thôn Vĩnh Khúc – Mỹ Văn – Văn Giang)
+        (Xưa là Xóm Đọ – Thôn Vĩnh Khúc – Mỹ Văn – Văn Giang-Hưng Yên)
       </span>
 
     </h1>
@@ -66,3 +66,4 @@
     </p>
   </motion.div>
 </motion.div>
+export default LandingHero;
