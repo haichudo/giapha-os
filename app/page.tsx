@@ -1,3 +1,4 @@
+import ZaloButton from "@/components/ZaloButton";
 import Footer from "@/components/Footer";
 import LandingHero from "@/components/LandingHero";
 import config from "./config";
