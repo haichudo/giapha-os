@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 <motion.div
   className="max-w-5xl text-center space-y-12 w-full relative z-10"
   initial="hidden"
