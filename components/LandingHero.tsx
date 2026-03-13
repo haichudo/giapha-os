@@ -57,7 +57,17 @@ export default function LandingHero({ siteName }: LandingHeroProps) {
           </motion.div>
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[5rem] font-serif font-bold text-stone-900 tracking-tight leading-[1.1] max-w-4xl">
-  <span className="block whitespace-pre-line">{siteName}</span>
+  
+            <div className="flex flex-col items-center">
+  <span className="text-blue-700">
+    {siteName}
+  </span>
+
+  <span className="text-lg sm:text-xl md:text-2xl text-stone-600 font-normal mt-3">
+    - Thôn Khúc Lộng - Xã Nghĩa Trụ - Tỉnh Hưng Yên (Xưa là Xóm Đọ-Thôn Vĩnh Khúc-Mỹ Văn-Văn Giang-Tỉnh Hưng Yên
+  </span>
+</div>
+            
 </h1>
 
           <p className="text-lg sm:text-xl md:text-2xl text-stone-600 max-w-2xl mx-auto leading-relaxed font-light">
